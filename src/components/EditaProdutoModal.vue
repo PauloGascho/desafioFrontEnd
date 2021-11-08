@@ -69,11 +69,6 @@ export default {
   props: {
     produtoSelecionado: Object
   },
-  // data() {
-  //   return {
-  //     produtoForm: this.produtoSelecionado,
-  //   }
-  // },
   methods: {
     show() {
       this.$refs['edita-produto'].show()

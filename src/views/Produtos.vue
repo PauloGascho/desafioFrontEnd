@@ -39,8 +39,15 @@
       </div>
     </b-modal>
 
-    <NovoProdutoModal @produtoSalvo="(produto) => produtos.push(produto)" ref="novoProdutoModal" />
-    <EditaProdutoModal @produtoEditado="(produto) => selecionado = produto" ref="editaProdutoModal" :produtoSelecionado="selecionado" />
+    <NovoProdutoModal
+      @produtoSalvo="(produto) => produtos.push(produto)"
+      ref="novoProdutoModal"
+    />
+    <EditaProdutoModal
+      @produtoEditado="(produto) => selecionado = produto"
+      ref="editaProdutoModal"
+      :produtoSelecionado="selecionado"
+    />
 
   </b-container>
 </template>
