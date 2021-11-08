@@ -58,7 +58,7 @@ export default {
       .then(
         response => this.tiposDeProdutos = response.data
       ).catch(function (error) {
-        console.log('teste',error);
+        console.log(error);
       })
     },
     buscarMovimentacoes() {
